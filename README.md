@@ -8,6 +8,7 @@ This project tackles one of the most profound questions in astronomy: *"Are we a
 The core of this project is a data visualization that maps planetary radius against orbital distance, highlighting a distinct "Goldilocks Zone" of potential habitability.
 
 ## 📊 Key Features & Analysis
+- **Dataset:** Nasa's Exoplanet Dataset ( NASA Exoplanet Archive (NEA))  (DOI) 10.26133/NEA12 
 - **Data Cleaning:** Processed raw NASA data using **Pandas**, handling missing values and filtering for relevant astrophysical parameters.
 - **Visualization:** Created a complex scatter plot using **Matplotlib** with the following features:
   - **Log-Scaling:** Applied to handle the vast range of planetary distances.
@@ -20,5 +21,6 @@ The core of this project is a data visualization that maps planetary radius agai
   - `pandas` (Data manipulation)
   - `matplotlib` (Visualization & Patches)
   - `numpy` (Numerical operations)
+
 
 
