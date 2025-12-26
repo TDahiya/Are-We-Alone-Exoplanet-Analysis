@@ -18,16 +18,16 @@ visualization. With a specialized inset zoom-in feature to label the top unique
 candidates in the "Goldilocks Zone."_
 
 ## 1. Datasets
-
+```
 We acquired the dataset for this study from the NASA Exoplanet Archive, a
 comprehensive public database maintained by the California Institute of Technology.
 The initial raw dataset contained over 35,000 rows of data. Each row contains
 high-dimensional data with over 90 columns of astrophysical parameters
-
+```
 ## 2. Data Exploration, Processing, and Cleaning
-
+```
 To prepare the dataset for visualization, we used Python with the Pandas library
-
+```
 ## 2.1. Data Cleaning
 
 ## 2.1.1. Handling Missing Values
@@ -48,7 +48,7 @@ applied a filter (drop_duplicates(subset=['pl_name'])) to retain only one unique
 record per planet.
 ```
 ## 2.2. Data Subsetting (The "Goldilocks" Logic)
-
+```
 To tell the story of "Habitability," we created a subset of data based on standard
 astrobiological parameters:
 ● Distance: 0.8 to 1.5 AU (Astronomical Units) The distance where liquid
@@ -57,7 +57,7 @@ water can exist.
 ● Earth Similarity Sorting: To identify the best candidates for labeling, we
 calculated a "Distance Score" for each planet based on how close its
 coordinates were to Earth (1,1).
-
+```
 ## 2.3. Exploratory Analysis
 
 ### 2.3.1. Attribute Selection
@@ -77,14 +77,14 @@ Figure 1: Data Completeness Comparison. Radius data is far more complete
 than Mass data.
 ```
 ### 2.3.2. Historical Context
-
+```
 We also plotted the cumulative discovery rate over time (Figure 2) to verify the
 "Volume" aspect of our dataset. The sharp exponential rise after 2010 (largely
 due to the Kepler Space Telescope) confirms that we are working with a
 modern, high-volume dataset suitable for "Big Data" analysis..
 **Figure 2:** _Cumulative discoveries over time. The dataset volume has
 exploded in the last decade, providing a rich sample size for analysis._
-
+```
 
 ## 3. Visualization
 
@@ -157,7 +157,7 @@ intuitive choice for habitable worlds.
 main plot. To represent the zoom in feature is related to habitable zone
 ```
 ## 5. Conclusion
-
+```
 Tools Used: We used Python programming language with libraries , Pandas handled
 the large-scale data cleaning, while Matplotlib was used for the advanced plotting
 features.
@@ -169,17 +169,15 @@ Collaboration: Kartik sourced the NASA dataset and researched the definitions of
 Habitable Zone. Tanishq wrote the Python code, specifically implementing the all
 logic and the algorithm to see "Earth Similarity" amongst all planets. We collaborated
 on the final design layout and report writing.
-
+```
 
 ## 6. References
 
 **[1] Dataset:** NASA Exoplanet Archive (2025). _Planetary Systems Composite Data_.
-California Institute of Technology. DOI: 10.26133/NEA
+California Institute of Technology. DOI: 10.26133/NEA12
 Christiansen et al. (2025). _The NASA Exoplanet Archive and Exoplanet Follow-up
 Observing Program: Data, tools, and usage_. **The Planetary Science Journal** , 6,
-
-186. https://doi.org/10.3847/PSJ/ade3c
-[2] CSC1143/CSC1 175 Data Visualisation Assignment 202509
 **Tools:** _Matplotlib: Visualization with Python_ , Pandas
+
 
 
