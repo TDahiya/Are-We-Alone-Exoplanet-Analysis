@@ -14,15 +14,11 @@ The core of this project is a data visualization that maps planetary radius agai
   - **Inset Zoom:** A specialized zoom-in window to label specific candidate planets like *Kepler-452 b* that are statistically rare.
   - **Contextual Annotations:** Used green connecting lines to link the "Earth-like" cluster to the zoom window.
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Used
 - **Language:** Python
 - **Libraries:**
   - `pandas` (Data manipulation)
   - `matplotlib` (Visualization & Patches)
   - `numpy` (Numerical operations)
 
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/Are-We-Alone-Exoplanet-Analysis.git](https://github.com/your-username/Are-We-Alone-Exoplanet-Analysis.git)
 
