@@ -3,7 +3,9 @@
 > **Module:** CSC1143/CSC1175 Data Visualisation
 
 ## 📖 Overview
-![Are We Alone Analysis](AreWeAlone.png)
+<p align="center">
+  <img src="AreWeAlone.png" alt="Are We Alone Analysis" width="800">
+</p>
 This project tackles one of the most profound questions in astronomy: *"Are we alone?"*. Using the **NASA Exoplanet Archive dataset**, we analyzed the physical characteristics of thousands of exoplanets to determine the rarity of "Earth-like" worlds compared to uninhabitable gas giants.
 
 The core of this project is a data visualization that maps planetary radius against orbital distance, highlighting a distinct "Goldilocks Zone" of potential habitability.
@@ -22,6 +24,7 @@ The core of this project is a data visualization that maps planetary radius agai
   - `pandas` (Data manipulation)
   - `matplotlib` (Visualization & Patches)
   - `numpy` (Numerical operations)
+
 
 
 
